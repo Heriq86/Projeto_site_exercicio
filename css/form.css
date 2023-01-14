@@ -1,0 +1,25 @@
+/* CSS Document */
+
+form {
+	width: 500px;
+	margin: auto;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 13pt;
+}
+
+input {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	font-size: 13pt;
+}
+
+input:hover {
+	background-color: #dddddd;
+}
+
+legend {
+	color: #161212;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}

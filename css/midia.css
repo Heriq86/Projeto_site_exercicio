@@ -1,0 +1,16 @@
+/* CSS Document */
+
+div#video {
+	width: 900px;
+	height: 580px;
+	margin: auto;
+}
+
+video#top-10 {
+	display: block;
+	position: relative;
+	left: 0px;
+	top: 16px;
+	width: 810px;
+	height: 439px;
+}

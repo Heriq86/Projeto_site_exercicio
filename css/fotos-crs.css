@@ -1,0 +1,123 @@
+/* CSS Document */
+
+ul#curso-fotos{
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#curso-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid #CCC2C2;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	transition: all .4s ease-in;
+	
+}
+
+ul#curso-fotos li:hover{
+transform: scale(1.5)
+}
+
+ul#curso-fotos li#foto-ads {
+	background: url(../img/ADS.jpg)no-repeat;
+	background-position: 50% 50%;
+	background-size: 500px 400px;
+	background-color: #ffffff;
+}
+
+ul#curso-fotos li#foto-bd{
+	background: url(../img/BD.png) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-cc{
+	background: url(../img/CC.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-ec{
+	background: url(../img/EC.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-gti{
+	background: url(../img/GTI.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-jd{
+	background: url(../img/JD.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-rc{
+	background: url(../img/RC.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+ul#curso-fotos li#foto-si{
+	background: url(../img/SI.jpg) no-repeat;
+	background-position: 50% 50%;
+}
+
+ul#curso-fotos li#foto-ads:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-bd:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-cc:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-ec:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-gti:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-jd:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-rc:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#curso-fotos li#foto-si:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+ul#curso-fotos li span {
+	opacity: 1;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 6pt;
+	line-height: 370px;
+	padding: 5px;
+	
+}
+
+ul#curso-fotos li a{
+	text-decoration: none;
+	
+}
+
+ul#curso-fotos li:hover span {
+	opacity: 1;
+	
+}
