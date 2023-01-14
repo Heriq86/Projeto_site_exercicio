@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+			<title>Fale conosco HK</title>	
+				<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		         	<link rel="stylesheet" type="text/css" href="css/midia.css"/> 
+							<link rel="stylesheet" type="text/css" href="css/form.css"/>
+								<link rel="stylesheet" type="text/css" href="css/fotos-crs.css">
+	</head>
+	
+<body>
+	<div id="interface">		
+		<header id="cabecalho">
+			<img src="img/hk-log.png" alt="icone grande">	
+		</header>	
+		
+		<nav id="menu">
+			<h1>Menu Principal</h1>
+				<ul>
+	<li><a href="index.html" target="_self">HOME</a></li>
+	<li><a href="cursos.html" target="_self">CURSOS</a></li>
+	<li><a href="fale-conosco.html" target="_self">FALE CONOSCO</a></li>
+				</ul>
+		</nav>
+	
+		
+<section id="corpo">
+	
+	<form method="post" id="fcontato" action="mailton:contato@outlook.com">
+	<fieldset id="usuario">
+		
+	<legend>Identifição do Usuário</legend>
+<p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="30" Maxlength="30" placeholder="Nome Completo"/></p>
+	<p><label for="cmail">E-mail:</label><input type="email" name="tmail" id="cmail" size="30" Maxlength="40" placeholder="exemplo@gmail.com"/></p>
+	<p><label for="">Telefone:</label><input type="tel" name="tnumb" id="cnumb" size="9" Maxlength="9" placeholder="99999-9999"/></p>
+	</fieldset>
+	
+	<fieldset id="mensagem">
+	<legend>Mensagem do Usuário</legend>
+	<p><label for="ccurso">Curso:</label>
+		<select name="tcurso" id="ccurso">
+		<option>Analise e desenvolvimento de sistemas</option>
+		<option>Banco de dados</option>
+		<option>Ciéncia da computação</option>
+		<option>Engenharia da computação</option>
+		<option>Gestão da tecnologia da informação</option>
+		<option>Jogos digitais</option>
+		<option>Rede de computadores</option>
+		<option>Sistemas de informação</option>
+		</select></p>
+	<p><label for="csolit">Tipo de solicitação:</label>
+		<select name="tsolit" id="csolit">
+		<option>Atendimento ao cliente</option>
+		<option>Secretaria</option>
+		<option>Financeiro</option>
+		<option>Vestibular</option>
+		<option>ouvidoria</option>
+		</select></p>
+	<p><label for="cobs">Asunto (Obs):</label><input type="text" name="tobs" id="cobs" size="30" Maxlength="30" placeholder="Descreva seu asunto"/></p>
+	<p><label for="curg">Grau de Urgência:</label>
+		Mìn<input type="range" name="turg" id="curg" min="0" max="10" step="1"/>Máx</p>
+	<p><label for="cmsg">Mensagem:</label>
+		<textarea name="tmsg" id="cmsg" cols="60" rows="5" placeholder="Deixe aqui sua mensagem">
+		
+		</textarea></p>
+	</fieldset>
+		
+		<input type="submit" value="Enviar">
+	</form>
+	
+</section>
+		
+<footer id="rodape">
+<p>Desenvolvido por:&nbsp;Henrique Ribeiro da Silva&nbsp;&reg;<br/> RGM:&nbsp;27359913 &nbsp; Turma:&nbsp; 1-K<br/>Curso:&nbsp;Analise e desenvolvimento de sistemas</p>
+		</footer><br>
+</div>
+</body>
+</html>
